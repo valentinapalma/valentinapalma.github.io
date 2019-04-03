@@ -1,0 +1,48 @@
+h1 {
+	background: linear-gradient(to right, #FFD700 0%, #CD853F 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-size: 250%;
+    font-family: 'Eb Garamond', Georgia, serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin:0;
+    padding:10px;
+    text-align: center;
+}
+
+a {
+    background: linear-gradient(to right, #FFD700 0%, #CD853F 100%);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Eb Garamond', Georgia, serif;
+    text-transform: uppercase;
+    text-align: right;
+    justify-content: center;
+    font-size:150%;
+}
+
+a:hover {
+    background: linear-gradient(to left, #FFD700 0%, #CD853F 100%);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Eb Garamond', Georgia, serif;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.carousel-indicators {
+    position: absolute;
+    top: 50px;
+    text-align: center;
+    opacity: 0.9;
+    margin-top:10px;
+}
+
+.carousel-inner {
+    height:400px;
+}
+
+.navbar {
+    height:100px;
+}
